@@ -1,0 +1,51 @@
+﻿<html>
+        <header>
+            
+            <link rel="stylesheet" href="NavBarStyleSheet.css">
+            <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+            <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><script>
+
+              $(document).ready(function(){
+                $('.sidebarBtn').click(function(){
+                  $('.ui-content').toggleClass('active');
+                  $('.sidebarBtn').toggleClass('toggle');
+                })
+              })
+                
+               </script>
+  
+        </header>
+
+        <body>
+        
+          <div class="ui-content">
+                
+                  
+              <ol data-role="listview” data-filter="true">
+
+                        
+                        <li><a href="" data-transition="fade"><center><i class="fa fa-user"></i>&nbsp;&nbsp;USER</center></a></li>
+
+                        <li><a href="" data-transition="fade"><i class="fa fa-home"></i>&nbsp;&nbsp;Home</a></li> 
+                        <li><a href=""><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Points of Interest</a></li>
+                        <li><a href=""><i class="fa fa-clock-o"></i>&nbsp;&nbsp;Events</a></li>
+                        <li><a href=""><i class="fa fa-newspaper-o"></i>&nbsp;&nbsp;News</a></li>
+                        <li><a href=""><i class="fa fa-comments-o"></i>&nbsp;&nbsp;Talks</a></li>
+                        <li><a href=""><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;Shopping</a></li> 
+                        <li><a href=""><i class="fa fa-ticket"></i>&nbsp;&nbsp;Tickets</a></li>
+                        <li><a href=""><i class="fa fa-heart"></i>&nbsp;&nbsp;Favourites</a></li>
+                        <li><a href=""><i class="fa fa-trophy"></i>&nbsp;&nbsp;Leaderboard</a></li>
+                        <li><a href=""><i class="fa fa-qrcode"></i>&nbsp;&nbsp;QR Scanner</a></li>
+                        <li><a href=""><i class="fa fa-users"></i>&nbsp;&nbsp;Team Members</a></li>
+                        <li><a href=""><i class="fa fa-calendar"></i>&nbsp;&nbsp;Schedule</a></li>
+                      </ol> 
+                 
+                  
+                 <button class="sidebarBtn">
+                     <span></span>
+                 </button>
+                  
+                </div>
+             
+ 
