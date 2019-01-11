@@ -1,0 +1,129 @@
+<html>
+    <header>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            
+            <link rel="stylesheet" href="assets/css/EventsPageStyleSheet.css">
+<!--
+            <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+            <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+            <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+-->
+    <link rel="stylesheet" href="assets/jquery.mobile-1.4.2/jquery.mobile-1.4.2.css" />
+    <script src="assets/js/jquery-1.11.0.js" type="text/javascript"></script>
+    <script src="assets/jquery.mobile-1.4.2/jquery.mobile-1.4.2.js" type="text/javascript"></script>
+    </header>
+
+    <body>
+            
+
+  <script>
+$(document).ready(function() {
+    $("#events").hover(function() {
+            $(this).animate({
+                opacity: 0.94
+            }, 300);
+        },
+        function() {
+            $(this).animate({
+                opacity: 1.0
+            }, 300);
+        });
+});
+      </script> 
+            
+            <div class="container">
+                    <img id="events" alt="Events" src="assets/images/EventsImage.jpeg"/ class="img-fluid">
+                    <div class="text-block">
+                        <h1>Events</h1>
+                    </div>
+                </div>
+            
+                <h4 align='center'>Westminster Fashion Week Festival, Where the Fashion World meets.</h4>
+            
+                <div class="ui-field-contain">
+                    <select name="select-native-17" id="select-native-17">
+                        <option>Filter by</option>
+                        <option value="Designer Shows">Designer Shows</option>
+                        <option value="Trend Shows">Trend Shows</option>
+                        <option value="Cat Walks">Cat Walks</option>
+                    </select>
+                </div>
+            
+           
+            
+            <div class="ui-field-contain" id="designerShows">
+                    <h2>Designer Shows</h2>
+                    <hr>
+            
+                    <select id="designSort" name="select-native-17">
+                        <option>Sort by</option>
+                        <option value="asc">Name A-Z</option>
+                        <option value="dsc">Name Z-A</option>
+            
+                    </select>
+            
+                    <div id="container1" data-sort="descending">
+            
+            
+                        <div class="view hm-zoom">
+                            <img id="events" alt="Events" src="assets/images/Designer Show 2.jpg" class="img-fluid" height="40%" />
+                        </div>
+            
+                        <div class="box1">
+                            <h3>Gena Drewes<h3>
+                                    <hr>
+                                    <p>
+                                        <h5>Elegance and extravagance paired with clear, modern silhouettes are Gina’s
+                                            signature. Her love for eye-catching patterns and extraordinary materials
+                                            runs through all her collections...<a href="" style="color:#E2658E">See more</a></h5>
+                                    </p>
+                        </div>
+            
+                        <div class="box1">
+                            <img id="events" alt="Events" src="assets/images/Designer Show 1.jpg" height="40%" />
+                            <h3>ANA MARIA CORNEA<h3>
+                                    <hr>
+                                    <p>
+                                        <h5>Ana Maria Cornea established her brand in 2006. Currently she works at Atelierele Ilbah
+                                            School, Bucharest.
+                                            Her brand embodies the modern woman; independent, strong and beautiful...<a href="">See
+                                                more</a></h5>
+                                    </p>
+                        </div>
+                    </div>
+                </div>
+
+ <h2>Trend Shows</h2> 
+ <hr>    
+ <select align='right'>
+  <option value="asc">Name A-Z</option>
+  <option value="dsc">Name Z-A</option>
+  
+</select>  
+
+  <!--Image-->
+
+
+  <div id="container">
+      <div class="box">
+        <img id="events" alt="Events" src="assets/images/Designer Show 3.jpg" height="40%" />
+        <h3>In or Near<h3>
+      <hr>
+        <p><h5>Or Near is the unique geometrical apparel concept of the Vienna based designer Liliya Semenova.
+                The idea behind it is to combine minimalistic shapes with various colours and give them a 3D 
+                volume effect through the texture...<a href="">See more</a> </h5> </p> 
+      </div>
+    
+      <div class="box">
+        <h3>CHIC BY VALI CIOBAN<h3>
+                <img id="events" alt="Events" src="assets/images/Trend Show-1.jpg" height="40%" />
+                <hr>
+                <p><h5>is about more than just clothing. It is a state: it is what you are, what you feel and what you want to be.
+                        Vali Cioban has been involved in the world of fashion since 1991 and continues to shape the style of her clients and enhance their natural beauty...<a href="">See more</a> </h5> </p> 
+      </div>
+</div>
+
+    </body>
+            
+</html>
